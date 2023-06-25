@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        h2{
+            text-align: center;
+            color: rgb(201, 36, 100);
+        }
+    </style>
+</head>
+<body>
+    <h2></h2>
+    <script >
+        let h2=document.querySelector("h2");
+let data=JSON.parse(localStorage.getItem("data"));
+let user = data.fname +" "+ data.lname;
+h2.textContent ="welcome"+" "+ user;
+    </script>
+</body>
+</html>

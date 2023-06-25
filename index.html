@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./scss/main.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <div class="container">
+ <div class="left">
+        <h1>Sign up</h1>
+        <form action="">
+            <div>
+ 
+                <label for="f-name"> <i class="fa-solid fa-user-large"></i></label>
+                <input type="text" class="fname" placeholder="first name "required>
+            <small class="error-fname"></small>
+            </div>
+        <div>
+             <label for="l-name"> <i class="fa-solid fa-user-large"></i></label>
+
+            <input type="text" class="lname" placeholder="last name">
+         <small class="error-lname"></small>
+        </div>
+        <div>
+             <label for="email"> <i class="fa-solid fa-envelope"></i></label>
+            <input type="email" class="email" placeholder="enter your email" >
+         <small class="error-email"></small>
+        </div>
+        <div>
+             <label for="password"> <i class="fa-solid fa-lock"></i></label>
+            <input type="password" class="password" placeholder="password">
+         <small class="error-pass"></small>
+        </div>
+        <div>
+             <label for="re password"> <i class="fa-solid fa-lock"></i></label>
+            <input type="password" class="repassword" name="" id=""placeholder="repeat password"required>
+         <small class="error-repass"></small>
+        </div>
+        <div class="radio">
+        <input type="radio" id="male" name="gender" value="male"required>
+        <label for="male">male</label>
+   <input type="radio" id="female" name="gender" value="female"required>
+<label for="female">female</label>    
+</div>
+        <button type="submit">register</button>
+        </form>
+ </div>
+ <div class="right"><img src="./imgs/signup-image.jpg" alt="">
+<a href="login.html"> im arelady member</a>
+</div>
+    </div>
+    <script src="./main.js"></script>
+</body>
+</html>

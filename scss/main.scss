@@ -1,0 +1,83 @@
+@use "./_global";
+$color-gray:rgb(207, 203, 203);
+$margin:10px;
+.container{
+    width:80%;
+    height: 80vh;
+    margin:100px auto;
+   display: flex;
+   border-radius: 5px;
+   justify-content: space-evenly;
+   align-items: center;
+   border:1px solid $color-gray;
+ box-shadow: 1px 1px 1px 1px $color-gray;
+h1{
+    text-align: center;
+    margin-bottom: $margin;
+}
+small{
+    color: red;
+    display: block;
+    width: 300px;
+    margin-left: 20px;
+}
+ input{
+    padding: $margin 100px;
+    margin-top: $margin;
+     outline: none;
+     margin-bottom: 30px;
+border: {
+    top:1px solid transparent;
+    left:1px solid transparent;
+    right: 1px solid transparent;
+   
+}
+  &::placeholder{
+font: {
+    size: 20px;
+   
+} 
+ color: $color-gray;
+  }  
+ }
+
+ i{
+       
+       position: relative;
+       left: 20px;
+     
+        color: #f695a2;
+    }
+ button{
+    padding: 15px 40px ;
+    margin: {top: $margin;
+    left: 25px;
+    }
+    border: 1px solid transparent{
+        radius:5px;
+        
+    }
+    &:hover{
+        background-color: #d06876;
+    }
+    color: white;
+  
+    font: {
+        size: 15px;
+        weight:bold;
+    } ;
+    
+    background-color: #f695a2;
+    
+}
+.radio{
+    font: {size:25px;
+    weight:bold;
+    
+    
+    } ;
+    color: rgb(170, 162, 162);
+    margin-left: 25px;
+    
+} 
+}
